@@ -7,14 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ToonMat
-  m_Shader: {fileID: -6465566751694194690, guid: 967b9f1c304d14646b2ead544ca23d94,
+  m_Name: Shader Graphs_Outline
+  m_Shader: {fileID: -6465566751694194690, guid: b5456f89f76bbe443aaa36b96ea3fc03,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -38,18 +38,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Bands: 0.70754755
-    - _IsBillinPhong: 1
-    - _LightIntensity: 1
-    - _Phong: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Shininess: 0.24034184
+    - _Scale: 1.05
     m_Colors:
-    - _Color: {r: 0, g: 0.6392157, b: 1, a: 0}
-    - _LightColor: {r: 0.023238778, g: 1, b: 0, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &1126492864736120831
+--- !u!114 &1263842689072019929
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
