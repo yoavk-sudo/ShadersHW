@@ -400,6 +400,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2267673eb111a742b78d517789b10c4, type: 3}
+--- !u!137 &1494587038 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -5900315376018205232, guid: f2267673eb111a742b78d517789b10c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1494587037}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1617851250
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,7 +485,10 @@ VisualEffect:
     m_Vector2f:
       m_Array: []
     m_Vector3f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: New Transform_position
+        m_Overridden: 0
     m_Vector4f:
       m_Array: []
     m_Uint:
@@ -493,7 +502,13 @@ VisualEffect:
     m_Gradient:
       m_Array: []
     m_NamedObject:
-      m_Array: []
+      m_Array:
+      - m_Value: {fileID: 1494587038}
+        m_Name: New SkinnedMeshRenderer
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 276d9e395ae18fe40a9b4988549f2349, type: 3}
+        m_Name: New Texture2D
+        m_Overridden: 1
     m_Bool:
       m_Array: []
 --- !u!4 &1617851253
@@ -505,7 +520,7 @@ Transform:
   m_GameObject: {fileID: 1617851250}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.98, y: -1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
