@@ -21,17 +21,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Rock_BaseTextures
-  m_Shader: {fileID: -6465566751694194690, guid: 04c96440a4fead642926073726f3ada2, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 6fe9f825e3c5ba249b3eae6803c2b671,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - LOD0
-  m_InvalidKeywords:
-  - _DISABLE_SSR_TRANSPARENT
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
@@ -129,6 +128,7 @@ Material:
     - _AlphaSrcBlend: 1
     - _BlendMode: 0
     - _COLORPROJECTION: 0
+    - _ClippingThreshold: 1
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
@@ -139,6 +139,7 @@ Material:
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
     - _DstBlend2: 0
+    - _EdgeWidth: 1
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
@@ -187,11 +188,11 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
+    - _Color: {r: 0.5849056, g: 0.3360984, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _MossColor: {r: 0.43377998, g: 0.45999992, b: 0.19779995, a: 1}
   m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!114 &3543219281084126732
 MonoBehaviour:
   m_ObjectHideFlags: 11
